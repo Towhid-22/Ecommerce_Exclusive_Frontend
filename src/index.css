@@ -3,6 +3,7 @@
 @theme {
   /* colors */
   --color-header: #fafafa;
+  --color-searchBg: #f5f5f5;
 
 /* fonts */
   --font-Poppins: "Poppins", "sans-serif";
