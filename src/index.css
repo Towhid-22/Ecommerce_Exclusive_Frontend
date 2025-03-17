@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-header: #fafafa;
+
+/* fonts */
+  --font-Poppins: "Poppins", "sans-serif";
+}
+
+@layer utilities {
+  .container {
+    @apply w-[1170px] mx-auto px-4;
+  }
+}
