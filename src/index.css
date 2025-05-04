@@ -6,8 +6,11 @@
   --color-searchBg: #f5f5f5;
   --color-salesBasic: #db4444;
   --color-stars: #ffad33;
+  --color-hoverColor: #DB4444
 
   /* fonts */
+  
+  --font-Inter: "Inter", "sans-serif";
   --font-Poppins: "Poppins", "sans-serif";
   --font-Inter: "Inter", "sans-serif";
 }
