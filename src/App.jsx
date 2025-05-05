@@ -7,9 +7,9 @@ import LogIn from "./Pages/LogIn";
 const App = () => {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       {/* <SignUp /> */}
-      <LogIn />
+      {/* <LogIn /> */}
     </div>
   );
 };

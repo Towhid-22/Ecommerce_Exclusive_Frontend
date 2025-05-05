@@ -9,11 +9,13 @@ import ExploreProducts from "../Components/ExploreProducts";
 import Feature from "../Components/Feature";
 import Services from "../Components/Services";
 import Footer from "../Components/Footer";
+import Account from "../Components/Account";
 
 const Home = () => {
   return (
     <>
       <Navbar />
+      {/* <Account /> */}
       <Banner />
       <Sales />
       <Categories />

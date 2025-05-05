@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { FiSearch, FiUser } from "react-icons/fi";
 import { GoHeart } from "react-icons/go";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { RiShoppingCart2Line } from "react-icons/ri";
+import Account from "./Account";
 
 const Navbar = () => {
+  const [accountPopup, setAccountPopup] = useState(false);
+
   return (
     <div className="border-b-[1px] border-black/[30%]">
       <div className="bg-black text-header text-center py-[15px]">
@@ -53,9 +56,13 @@ const Navbar = () => {
             <li>
               <RiShoppingCart2Line className="w-8 h-8 ml-4" />
             </li>
-            {/* <li>
-              <FiUser className="w-8 h-8 ml-4" />
-            </li> */}
+            <li
+              onClick={() => setAccountPopup(!accountPopup)}
+              className="relative ml-4 hover:w-8 hover:h-8 group flex justify-center items-center hover:rounded-full hover:border-[1px] border-[#DB4444] hover:bg-[#DB4444] hover:text-white"
+            >
+              <FiUser className="group-hover:w-4 group-hover:h-4 h-8 w-8 " />
+              {accountPopup && <Account />}
+            </li>
           </ul>
         </div>
       </div>
