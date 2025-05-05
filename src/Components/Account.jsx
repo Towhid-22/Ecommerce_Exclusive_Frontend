@@ -7,7 +7,7 @@ import { PiShoppingBagOpenDuotone } from "react-icons/pi";
 
 const Account = () => {
   return (
-    <div className="absolute right-0.5 top-12.5 bg-black/[70%] py-[18px] w-[270px] text-[#fafafa] text-[14px] font-Poppins leading-[21px] font-normal rounded-[4px]">
+    <div className="absolute z-50 right-0.5 top-12.5 bg-black/[70%] py-[18px] w-[270px] text-[#fafafa] text-[14px] font-Poppins leading-[21px] font-normal rounded-[4px]">
       <ul>
         <li className="flex items-center gap-4 mb-[13px] cursor-pointer">
           <FiUser className="w-6 h-6 ml-4" />{" "}
