@@ -7,11 +7,15 @@ import Products from "./Pages/Products";
 import Cart from "./Pages/Cart";
 import Checkout from "./Pages/Checkout";
 import NotFound from "./Pages/NotFound";
+import Account from "./Pages/Account";
+import About from "./Pages/About";
 
 const App = () => {
   return (
     <div>
-      <NotFound />
+      <About />
+      {/* <Account /> */}
+      {/* <NotFound /> */}
       {/* <Checkout /> */}
       {/* <Cart /> */}
       {/* <Products /> */}

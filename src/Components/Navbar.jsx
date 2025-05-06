@@ -3,7 +3,7 @@ import { FiSearch, FiUser } from "react-icons/fi";
 import { GoHeart } from "react-icons/go";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { RiShoppingCart2Line } from "react-icons/ri";
-import Account from "./Account";
+import AccountPopup from "./AccountPopup";
 
 const Navbar = () => {
   const [accountPopup, setAccountPopup] = useState(false);
@@ -61,7 +61,7 @@ const Navbar = () => {
               className="relative ml-4 hover:w-8 hover:h-8 group flex justify-center items-center hover:rounded-full hover:border-[1px] border-[#DB4444] hover:bg-[#DB4444] hover:text-white"
             >
               <FiUser className="group-hover:w-4 group-hover:h-4 h-8 w-8 " />
-              {accountPopup && <Account />}
+              {accountPopup && <AccountPopup />}
             </li>
           </ul>
         </div>
