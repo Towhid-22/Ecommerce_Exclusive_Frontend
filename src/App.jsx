@@ -9,11 +9,13 @@ import Checkout from "./Pages/Checkout";
 import NotFound from "./Pages/NotFound";
 import Account from "./Pages/Account";
 import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 const App = () => {
   return (
     <div>
-      <About />
+      <Contact />
+      {/* <About /> */}
       {/* <Account /> */}
       {/* <NotFound /> */}
       {/* <Checkout /> */}

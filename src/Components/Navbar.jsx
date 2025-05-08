@@ -3,7 +3,7 @@ import { FiSearch, FiUser } from "react-icons/fi";
 import { GoHeart } from "react-icons/go";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { RiShoppingCart2Line } from "react-icons/ri";
-import AccountPopup from "./AccountPopup";
+import AccountPopup from "../Pages/AccountPopup";
 
 const Navbar = () => {
   const [accountPopup, setAccountPopup] = useState(false);

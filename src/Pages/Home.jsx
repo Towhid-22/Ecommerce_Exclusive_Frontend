@@ -9,13 +9,11 @@ import ExploreProducts from "../Components/ExploreProducts";
 import Feature from "../Components/Feature";
 import Services from "../Components/Services";
 import Footer from "../Components/Footer";
-import AccountPopup from "../Components/AccountPopup";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <AccountPopup />
       <Banner />
       <Sales />
       <Categories />
